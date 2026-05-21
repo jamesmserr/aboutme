@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-registry__list_connectors",
+      "Read(//Users/jamesmerrill/.claude/**)",
+      "Bash(npm list *)",
+      "Bash(npx skills *)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(mv .agents /tmp/aboutme-agents-backup)",
+      "Bash(mv skills-lock.json /tmp/aboutme-skills-lock-backup.json)"
+    ]
+  }
+}
